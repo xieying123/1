@@ -25,6 +25,7 @@ export default {
 <style lang="scss" scoped>
 .headtop{
     width: 100%;
+    box-shadow: 1px 1px 5px #ccc;
     .topcontent{
         width: 100%;
         height: 50px;

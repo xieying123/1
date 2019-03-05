@@ -1,7 +1,9 @@
 <template>
   <div>
       <v-header></v-header>
-      <v-left></v-left>
+      <div class="con">
+        <v-left></v-left>
+      </div>
   </div>
 </template>
 
@@ -28,7 +30,9 @@ export default {
 };
 </script>
 <style lang="scss" rel="stylesheet/scss" scoped>
-  
+  .con{
+    overflow: hidden;
+  }
 </style>
 <style>
 

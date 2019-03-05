@@ -33,9 +33,11 @@ export default {
   overflow: hidden;
   width: 275px;
   background: #6b6b6b;
+  box-shadow: 1px 1px 5px #333;
   padding-left: 25px;
-  height:calc(100vh - 70px);
+  height:calc(100vh - 90px);
   padding-bottom: 20px;
+  margin: 10px;
   .state{
     width: 250px;
     line-height: 30px;
