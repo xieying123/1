@@ -1,23 +1,35 @@
 <template>
   <div class="wrapper">
     <div class="top">
-     <ul class="ul">
+     <ul class="ul1">
         <li class="item">睿合易谷产品</li>
         <li class="item">系统管理</li>
         <li class="item">OA系统</li>
         <li class="item">设施系统</li>
         <li class="item">材料系统</li>
         <li class="item">关于我们</li>
-      </ul><br>
+      </ul>
+    </div>
+    <div class="bottom">
       <ul class="ul">
         <li class="item">数据查询</li>
         <li class="item">数据查询</li>
+      </ul>
+      <ul class="ul">
         <li class="item">数据查询</li>
         <li class="item">数据查询</li>
+      </ul><ul class="ul">
         <li class="item">数据查询</li>
         <li class="item">数据查询</li>
+      </ul><ul class="ul">
         <li class="item">数据查询</li>
         <li class="item">数据查询</li>
+      </ul>
+      <ul class="ul">
+        <li class="item">数据查询</li>
+        <li class="item">数据查询</li>
+      </ul>
+      <ul class="ul">
         <li class="item">数据查询</li>
         <li class="item">数据查询</li>
       </ul>
@@ -54,7 +66,7 @@ export default {
     line-height: 50px;
     margin: 0 auto;
     // padding: 20px 50px 0px 50px;
-    .ul{
+    .ul1{
       width: 80%;
       margin: 0 auto;
        .item{
@@ -68,8 +80,26 @@ export default {
         margin-right:20px;
       }
     }
-   
+    
+  }
+  .bottom{
+    width: 70%;
+    margin: 0 auto;
+    .ul{
+      padding-left: 5px;
+        float: left;
+        list-style: none;
+        width: 120px;
+        font-size: 18px;
+        font-family: Microsoft YaHei;
+        line-height: 35px;
+        text-align: center;
+        margin-right:14px;
+        &:nth-of-type(1){
+          padding-left: 80px;
+        }
+    }
+    
   }
 }
-
 </style>

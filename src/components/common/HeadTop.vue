@@ -5,9 +5,11 @@
             <div class="Photo">
                 <img src="../../assets/images/logoheader.png" alt="" srcset="">
             </div>
+            
             <div class="headDesc">
                <p class="companyName">陕西睿合易股科技有限公司</p>
-               <p class="sloga">没有执行，一切都是空谈~</p>
+               <p class="name">智慧工地</p>
+               <p class="sloga"><span>name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span><img src="../../assets/images/yun.jpg" alt="天气图片" class='slogaImg'>&nbsp;阴天/温度</span></p>
             </div>
           </div>
       </div>
@@ -25,18 +27,18 @@ export default {
     width: 100%;
     .topcontent{
         width: 100%;
-        height: 85px;
-        background: #ccc;
+        height: 50px;
+        background:#515151;
         .detailContent{
-            width: 70%;
+            width: 90%;
             height: 100%;
             margin: auto;
             display: flex;
             justify-content: flex-start;
             align-items: center;
             .Photo{
-                width: 65px;
-                height: 65px;
+                width: 35px;
+                height: 35px;
                 img{
                     width: 100%;
                     height: 100%;
@@ -51,15 +53,25 @@ export default {
                 justify-content: space-between;
                 align-items: center;
                 .companyName{
-                    font-size: 33px;
-                    color: #fff;
+                    font-size: 20px;
+                    color: #ddd;
                     letter-spacing: 5px;
                 }
                 .sloga{
                     margin-left: 5%;                    
-                    color: #8E2323;
+                    color: #ddd;
+                    font-size: 16px;
+                    // font-style:italic;
+                    .slogaImg{
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        vertical-align:middle
+                    }
+                }
+                .name{
                     font-size: 22px;
-                    font-style:italic;
+                    color: #ddd;
                 }
             }
 
