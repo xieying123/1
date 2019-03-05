@@ -20,5 +20,12 @@ export default {
 };
 </script>
 <style lang="scss" rel="stylesheet/scss" scoped>
-/* .wrapper{} */
+// /* .wrapper{} */
 </style>
+<style>
+*{
+  padding: 0;
+  margin: 0;
+}
+</style>
+
